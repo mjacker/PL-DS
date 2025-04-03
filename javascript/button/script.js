@@ -18,3 +18,4 @@ function decFontSize(){
   document.getElementById('demo').style.fontSize = fontsize + "px"
 }
 
+console.log("lol")
