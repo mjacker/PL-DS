@@ -10,3 +10,16 @@ echo "Enter Y:"
 read Y
 echo "Calling operations."
 operations X Y	
+
+
+# Version simple
+
+echo "Enter X:"
+read X
+echo "Enter Y:"
+read Y
+echo $((X + Y))
+echo $((X - Y))
+echo $((X * Y))
+echo $((X / Y))
+
