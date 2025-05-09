@@ -8,3 +8,11 @@ while IFS= read -r line; do
     echo "$clean_line"
 done < remove-anchor-from-url.md 
 
+
+## summited answer 
+#  if [[ -n $1 ]]; then
+#    # echo $(echo "$input" | awk '{ sub(/#.*/, ""); print }')
+#    echo "$1" | awk '{ sub(/#.*/, ""); print }'
+#  else
+#    exit 0
+#  fi;
